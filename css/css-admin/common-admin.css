@@ -1,0 +1,275 @@
+@media screen and (max-width:480px){
+    body{margin:0px;}
+    main .container{padding:0px 10px;}
+
+    form h1,h2{font:1em "Open Sans", sans-serif;text-transform:uppercase;color:rgb(0,162,232);letter-spacing:0.2em;}
+    form input{-webkit-appearance:none;}
+    form input[type=submit]{background-color:rgb(0,162,232);width:100px;padding:5px;color:rgb(255,255,255);border:0px;border-radius:3px;margin:10px 0px;font:0.9em "Open Sans", sans-serif;}
+    form{width:90%;display:block;vertical-align:top;margin-right:2%;}
+    .form-section{width:90%;display:block;vertical-align:top;}
+    form p{font:0.9em "Open Sans", sans-serif;}
+    form h2{border-left:2px solid rgb(255,0,0);padding-left:10px;}
+    form input:focus{outline:0px;}
+    label.flt_left{float:left;width:90%;display:block;font:0.9em "Open Sans", sans-serif;}
+    form input[type=text]{padding:5px;border:1px solid rgb(240,240,240);font:0.9em "Open Sans", sans-serif;}
+    form input[type=file]{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    form input[type=date]{padding:5px;font:0.9em "Open Sans", sans-serif;}
+    form select{padding:8px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);-webkit-appearance:none;background-color:rgb(255,255,255);}
+    form select:focus{outline:0px;}
+    form textarea{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);-webkit-appearance:none;}
+    form textarea:focus{outline:0px;}
+    form input[value="+"]{font:1em "Open Sans", sans-serif;background-color:rgb(200,200,200);border:0px;color:rgb(255,255,255);width:2em;padding:0.2em;}
+    form .remove_field{font:0.9em "Open Sans", sans-serif;background-color:rgb(200,200,200);border:0px;color:rgb(255,255,255);width:5em;padding:0.4em;}
+    form span{margin:5px 0px;}
+
+
+
+    .add_availability{display:block;width:100%;background-color:rgb(0,162,232);padding:10px;border:0px;font:1em "Open Sans", sans-serif;color:rgb(255,255,255);}
+    .remove_availability_form_section{background-color:rgb(255,0,0);border:0px;font:0.9em "Open Sans", san-serif;padding:5px;color:rgb(255,255,255);}
+    ul.admin-sub-menu{border-bottom:1px solid rgb(240,240,240);padding:10px;margin:0px;}
+    ul.admin-sub-menu li{font:0.9em "Open Sans", sans-serif;display:inline-block;cursor:pointer;margin-right:20px;}
+    ul.admin-sub-menu li#current_submenu{color:rgb(0,162,232);border-bottom:1px solid rgb(0,162,232);}
+    #sub-menu-content-section{display:none;}
+    #sub-menu-pages-section{display:none;}
+    #sub-menu-phones-section{display:none;}
+    #sub-menu-tablets-section{display:none;}
+    #sub-menu-laptops-section{display:none;}
+    #sub-menu-stores-section{display:none;}
+    #sub-menu-best-list-section{display:none;}
+    #edit-theme-section{display:none;}
+    #create-theme-section{display:none;}
+    #best-budget-phones-section,#best-mid-range-phones-section,#best-tablets-section,#best-budget-tablets-section,#best-mid-range-tablets-section,#best-laptops-section,#best-budget-laptops-section,#best-mid-range-laptops-section{display:none;}
+    #best-list-title{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);-webkit-appearance:none;}
+    .best-list-form{width:100%;}
+    .best-list-form .flt_left{font-weight:Bold;}
+    .best-list-form textarea{vertical-align:top;width:90%;height:100px;}
+    .best-list-item{padding:20px 20px;border:1px solid rgb(230,230,230);margin-bottom:20px;}
+
+    form p{margin:0px 0px 10px 0px;overflow:hidden;}
+    p.msg_box{padding:8px;border-radius: 5px;text-align:center;background-color:rgb(169,249,142);font:1em "Open Sans", sans-serif;color:rgb(255,255,255);}
+    p.msg_box_failed{padding:8px;border-radius: 5px;text-align:center;background-color:rgb(255,81,81);font:1em "Open Sans", sans-serif;color:rgb(255,255,255);}
+    form img{width:100px;display:block;}
+
+    #sub-menu-design-section label.flt_left{padding:5px;}
+    #sub-menu-design-section input[type=text]{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    #sub-menu-design-section input[type=text]:focus{outline:0px;}
+    #sub-menu-design-section input[type=file]{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    #sub-menu-design-section #used-theme-form,#edit-theme-form,#create-theme-form{border-bottom:1px solid rgb(240,240,240);}
+
+    #sub-menu-design-section #used-theme-form select,#edit-theme-form select,#create-theme-form select,#upload-css-file-form select{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    #sub-menu-design-section #used-theme-form select:focus,#edit-theme-form select:focus,#create-theme-form select:focus,#upload-css-file-form select:focus{outline:0px;}
+
+    #sub-menu-design-section #change-theme-btn,#edit-theme-btn,#create-theme-btn{background-color:rgb(240,240,240);width:100px;padding:5px;color:rgb(0,0,0);border:1px solid rgb(220,220,220);border-radius:3px;margin:10px 0px;font:0.9em "Open Sans", sans-serif;}
+
+    ul.manage-list{list-style-type:none;}
+    ul.manage-list a{text-decoration:none;font:0.9em "Open Sans", sans-serif;color:rgb(0,162,232);margin-right:20px;}
+    ul.manage-list li{margin-top:10px;}
+    ul.manage-list li a{text-decoration:none;font:1em "Open Sans", sans-serif;color:rgb(0,0,0);}
+}
+@media screen and (min-width:481px) and (max-width:720px){
+    body{margin:0px;}
+    main .container{padding:0px 10px;}
+
+    form h1,h2{font:1em "Open Sans", sans-serif;text-transform:uppercase;color:rgb(0,162,232);letter-spacing:0.2em;}
+    form input{-webkit-appearance:none;}
+    form input[type=submit]{background-color:rgb(0,162,232);width:100px;padding:5px;color:rgb(255,255,255);border:0px;border-radius:3px;margin:10px 0px;font:0.9em "Open Sans", sans-serif;}
+    form{width:90%;display:block;vertical-align:top;margin-right:2%;}
+    .form-section{width:90%;display:block;vertical-align:top;}
+    form p{font:0.9em "Open Sans", sans-serif;}
+    form h2{border-left:2px solid rgb(255,0,0);padding-left:10px;}
+    form input:focus{outline:0px;}
+    label.flt_left{float:left;width:90%;display:block;font:0.9em "Open Sans", sans-serif;}
+    form input[type=text]{padding:5px;border:1px solid rgb(240,240,240);font:0.9em "Open Sans", sans-serif;}
+    form input[type=file]{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    form input[type=date]{padding:5px;font:0.9em "Open Sans", sans-serif;}
+    form select{padding:8px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);-webkit-appearance:none;background-color:rgb(255,255,255);}
+    form select:focus{outline:0px;}
+    form textarea{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);-webkit-appearance:none;}
+    form textarea:focus{outline:0px;}
+    form input[value="+"]{font:1em "Open Sans", sans-serif;background-color:rgb(200,200,200);border:0px;color:rgb(255,255,255);width:2em;padding:0.2em;}
+    form .remove_field{font:0.9em "Open Sans", sans-serif;background-color:rgb(200,200,200);border:0px;color:rgb(255,255,255);width:5em;padding:0.4em;}
+    form span{margin:5px 0px;}
+
+
+
+    .add_availability{display:block;width:100%;background-color:rgb(0,162,232);padding:10px;border:0px;font:1em "Open Sans", sans-serif;color:rgb(255,255,255);}
+    .remove_availability_form_section{background-color:rgb(255,0,0);border:0px;font:0.9em "Open Sans", san-serif;padding:5px;color:rgb(255,255,255);}
+    ul.admin-sub-menu{border-bottom:1px solid rgb(240,240,240);padding:10px;margin:0px;}
+    ul.admin-sub-menu li{font:0.9em "Open Sans", sans-serif;display:inline-block;cursor:pointer;margin-right:20px;}
+    ul.admin-sub-menu li#current_submenu{color:rgb(0,162,232);border-bottom:1px solid rgb(0,162,232);}
+    #sub-menu-content-section{display:none;}
+    #sub-menu-pages-section{display:none;}
+    #sub-menu-phones-section{display:none;}
+    #sub-menu-tablets-section{display:none;}
+    #sub-menu-laptops-section{display:none;}
+    #sub-menu-stores-section{display:none;}
+    #sub-menu-best-list-section{display:none;}
+    #edit-theme-section{display:none;}
+    #create-theme-section{display:none;}
+    #best-budget-phones-section,#best-mid-range-phones-section,#best-tablets-section,#best-budget-tablets-section,#best-mid-range-tablets-section,#best-laptops-section,#best-budget-laptops-section,#best-mid-range-laptops-section{display:none;}
+    #best-list-title{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);-webkit-appearance:none;}
+    .best-list-form{width:100%;}
+    .best-list-form .flt_left{font-weight:Bold;}
+    .best-list-form textarea{vertical-align:top;width:90%;height:100px;}
+    .best-list-item{padding:20px 20px;border:1px solid rgb(230,230,230);margin-bottom:20px;}
+
+    form p{margin:0px 0px 10px 0px;overflow:hidden;}
+    p.msg_box{padding:8px;border-radius: 5px;text-align:center;background-color:rgb(169,249,142);font:1em "Open Sans", sans-serif;color:rgb(255,255,255);}
+    p.msg_box_failed{padding:8px;border-radius: 5px;text-align:center;background-color:rgb(255,81,81);font:1em "Open Sans", sans-serif;color:rgb(255,255,255);}
+    form img{width:100px;display:block;}
+
+    #sub-menu-design-section label.flt_left{padding:5px;}
+    #sub-menu-design-section input[type=text]{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    #sub-menu-design-section input[type=text]:focus{outline:0px;}
+    #sub-menu-design-section input[type=file]{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    #sub-menu-design-section #used-theme-form,#edit-theme-form,#create-theme-form{border-bottom:1px solid rgb(240,240,240);}
+
+    #sub-menu-design-section #used-theme-form select,#edit-theme-form select,#create-theme-form select,#upload-css-file-form select{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    #sub-menu-design-section #used-theme-form select:focus,#edit-theme-form select:focus,#create-theme-form select:focus,#upload-css-file-form select:focus{outline:0px;}
+
+    #sub-menu-design-section #change-theme-btn,#edit-theme-btn,#create-theme-btn{background-color:rgb(240,240,240);width:100px;padding:5px;color:rgb(0,0,0);border:1px solid rgb(220,220,220);border-radius:3px;margin:10px 0px;font:0.9em "Open Sans", sans-serif;}
+
+    ul.manage-list{list-style-type:none;}
+    ul.manage-list a{text-decoration:none;font:0.9em "Open Sans", sans-serif;color:rgb(0,162,232);margin-right:20px;}
+    ul.manage-list li{margin-top:10px;}
+    ul.manage-list li a{text-decoration:none;font:1em "Open Sans", sans-serif;color:rgb(0,0,0);}
+}
+@media screen and (min-width:721px) and (max-width:1024px){
+    body{margin:0px;}
+    main .container{width:90%;margin:auto;}
+
+    form h1,h2{font:1em "Open Sans", sans-serif;text-transform:uppercase;color:rgb(0,162,232);letter-spacing:0.2em;}
+    form input[type=submit]{background-color:rgb(0,162,232);width:100px;padding:5px;color:rgb(255,255,255);border:0px;border-radius:3px;margin:10px 0px;font:0.9em "Open Sans", sans-serif;}
+    form{width:100%;display:inline-block;vertical-align:top;margin-right:2%;}
+    .form-section{width:45%;display:inline-block;vertical-align:top;}
+    form p{font:0.9em "Open Sans", sans-serif;}
+    form h2{border-left:2px solid rgb(255,0,0);padding-left:10px;}
+    form input:focus{outline:0px;}
+    label.flt_left{float:left;width:100px;font:0.9em "Open Sans", sans-serif;}
+    form input[type=text]{padding:5px;border:1px solid rgb(240,240,240);font:0.9em "Open Sans", sans-serif;}
+    form input[type=file]{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    form input[type=date]{padding:5px;font:0.9em "Open Sans", sans-serif;}
+    form select{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    form select:focus{outline:0px;}
+    form textarea{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    form textarea:focus{outline:0px;}
+    form input[value="+"]{font:1em "Open Sans", sans-serif;background-color:rgb(200,200,200);border:0px;color:rgb(255,255,255);width:2em;padding:0.2em;}
+    form .remove_field{font:0.9em "Open Sans", sans-serif;background-color:rgb(200,200,200);border:0px;color:rgb(255,255,255);width:5em;padding:0.4em;}
+    form span{margin:5px 0px;}
+
+
+
+    .add_availability{display:block;width:100%;background-color:rgb(0,162,232);padding:10px;border:0px;font:1em "Open Sans", sans-serif;color:rgb(255,255,255);}
+    .remove_availability_form_section{background-color:rgb(255,0,0);border:0px;font:0.9em "Open Sans", san-serif;padding:5px;color:rgb(255,255,255);}
+    ul.admin-sub-menu{border-bottom:1px solid rgb(240,240,240);padding:10px;margin:0px;}
+    ul.admin-sub-menu li{font:0.9em "Open Sans", sans-serif;display:inline-block;cursor:pointer;margin-right:20px;}
+    ul.admin-sub-menu li#current_submenu{color:rgb(0,162,232);border-bottom:1px solid rgb(0,162,232);}
+    #sub-menu-content-section{display:none;}
+    #sub-menu-pages-section{display:none;}
+    #sub-menu-phones-section{display:none;}
+    #sub-menu-tablets-section{display:none;}
+    #sub-menu-laptops-section{display:none;}
+    #sub-menu-stores-section{display:none;}
+    #sub-menu-best-list-section{display:none;}
+    #edit-theme-section{display:none;}
+    #create-theme-section{display:none;}
+    #best-budget-phones-section,#best-mid-range-phones-section,#best-tablets-section,#best-budget-tablets-section,#best-mid-range-tablets-section,#best-laptops-section,#best-budget-laptops-section,#best-mid-range-laptops-section{display:none;}
+    #best-list-title{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    .best-list-form{width:100%;}
+    .best-list-form .flt_left{font-weight:Bold;}
+    .best-list-form textarea{vertical-align:top;width:90%;}
+    .best-list-item{padding:20px 20px;border:1px solid rgb(230,230,230);margin-bottom:20px;}
+
+    form p{margin:0px 0px 10px 0px;overflow:hidden;}
+    p.msg_box{padding:8px;border-radius: 5px;text-align:center;background-color:rgb(169,249,142);font:1em "Open Sans", sans-serif;color:rgb(255,255,255);}
+    p.msg_box_failed{padding:8px;border-radius: 5px;text-align:center;background-color:rgb(255,81,81);font:1em "Open Sans", sans-serif;color:rgb(255,255,255);}
+    form img{width:100px;display:block;}
+
+    #sub-menu-design-section label.flt_left{padding:5px;}
+    #sub-menu-design-section input[type=text]{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    #sub-menu-design-section input[type=text]:focus{outline:0px;}
+    #sub-menu-design-section input[type=file]{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    #sub-menu-design-section #used-theme-form,#edit-theme-form,#create-theme-form{border-bottom:1px solid rgb(240,240,240);}
+
+    #sub-menu-design-section #used-theme-form select,#edit-theme-form select,#create-theme-form select,#upload-css-file-form select{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    #sub-menu-design-section #used-theme-form select:focus,#edit-theme-form select:focus,#create-theme-form select:focus,#upload-css-file-form select:focus{outline:0px;}
+
+    #sub-menu-design-section #change-theme-btn,#edit-theme-btn,#create-theme-btn{background-color:rgb(240,240,240);width:100px;padding:5px;color:rgb(0,0,0);border:1px solid rgb(220,220,220);border-radius:3px;margin:10px 0px;font:0.9em "Open Sans", sans-serif;}
+
+    ul.manage-list{list-style-type:none;}
+    ul.manage-list a{text-decoration:none;font:0.9em "Open Sans", sans-serif;color:rgb(0,162,232);margin-right:20px;}
+    ul.manage-list li{margin-top:10px;}
+    ul.manage-list li a{text-decoration:none;font:1em "Open Sans", sans-serif;color:rgb(0,0,0);}
+}
+@media screen and (min-width:1024px){
+    body{margin:0px;}
+    main .container{width:90%;margin:auto;}
+
+    form h1,h2{font:1em "Open Sans", sans-serif;text-transform:uppercase;color:rgb(0,162,232);letter-spacing:0.2em;}
+    form input[type=submit]{background-color:rgb(0,162,232);width:100px;padding:5px;color:rgb(255,255,255);border:0px;border-radius:3px;margin:10px 0px;font:0.9em "Open Sans", sans-serif;}
+    form{width:100%;display:inline-block;vertical-align:top;margin-right:2%;}
+    .form-section{width:45%;display:inline-block;vertical-align:top;}
+    form p{font:0.9em "Open Sans", sans-serif;}
+    form h2{border-left:2px solid rgb(255,0,0);padding-left:10px;}
+    form input:focus{outline:0px;}
+    label.flt_left{float:left;width:100px;font:0.9em "Open Sans", sans-serif;}
+    form input[type=text]{padding:5px;border:1px solid rgb(240,240,240);font:0.9em "Open Sans", sans-serif;}
+    form input[type=file]{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    form input[type=date]{padding:5px;font:0.9em "Open Sans", sans-serif;}
+    form select{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    form select:focus{outline:0px;}
+    form textarea{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    form textarea:focus{outline:0px;}
+    form input[value="+"]{font:1em "Open Sans", sans-serif;background-color:rgb(200,200,200);border:0px;color:rgb(255,255,255);width:2em;padding:0.2em;}
+    form .remove_field{font:0.9em "Open Sans", sans-serif;background-color:rgb(200,200,200);border:0px;color:rgb(255,255,255);width:5em;padding:0.4em;}
+    form span{margin:5px 0px;}
+
+
+
+    .add_availability{display:block;width:100%;background-color:rgb(0,162,232);padding:10px;border:0px;font:1em "Open Sans", sans-serif;color:rgb(255,255,255);}
+    .remove_availability_form_section{background-color:rgb(255,0,0);border:0px;font:0.9em "Open Sans", san-serif;padding:5px;color:rgb(255,255,255);}
+    ul.admin-sub-menu{border-bottom:1px solid rgb(240,240,240);padding:10px;margin:0px;}
+    ul.admin-sub-menu li{font:0.9em "Open Sans", sans-serif;display:inline-block;cursor:pointer;margin-right:20px;}
+    ul.admin-sub-menu li#current_submenu{color:rgb(0,162,232);border-bottom:1px solid rgb(0,162,232);}
+    #sub-menu-content-section{display:none;}
+    #sub-menu-pages-section{display:none;}
+    #sub-menu-phones-section{display:none;}
+    #sub-menu-tablets-section{display:none;}
+    #sub-menu-laptops-section{display:none;}
+    #sub-menu-stores-section{display:none;}
+    #sub-menu-best-list-section{display:none;}
+    #sub-menu-drafts-section{display:none;}
+    #sub-menu-published-articles-section{display:none;}
+    #edit-theme-section{display:none;}
+    #create-theme-section{display:none;}
+
+    #best-budget-phones-section,#best-mid-range-phones-section,#best-tablets-section,#best-budget-tablets-section,#best-mid-range-tablets-section,#best-laptops-section,#best-budget-laptops-section,#best-mid-range-laptops-section{display:none;}
+    #best-list-title{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    .best-list-form{width:100%;}
+    .best-list-form .flt_left{font-weight:Bold;}
+    .best-list-form textarea{vertical-align:top;width:90%;}
+    .best-list-item{padding:20px 20px;border:1px solid rgb(230,230,230);margin-bottom:20px;}
+
+    form p{margin:0px 0px 10px 0px;overflow:hidden;}
+    p.msg_box{padding:8px;border-radius: 5px;text-align:center;background-color:rgb(169,249,142);font:1em "Open Sans", sans-serif;color:rgb(255,255,255);}
+    p.msg_box_failed{padding:8px;border-radius: 5px;text-align:center;background-color:rgb(255,81,81);font:1em "Open Sans", sans-serif;color:rgb(255,255,255);}
+    form img{width:100px;display:block;}
+
+    #sub-menu-design-section label.flt_left{padding:5px;}
+    #sub-menu-design-section input[type=text]{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    #sub-menu-design-section input[type=text]:focus{outline:0px;}
+    #sub-menu-design-section input[type=file]{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    #sub-menu-design-section #used-theme-form,#edit-theme-form,#create-theme-form{border-bottom:1px solid rgb(240,240,240);}
+
+    #sub-menu-design-section #used-theme-form select,#edit-theme-form select,#create-theme-form select,#upload-css-file-form select{padding:5px;font:0.9em "Open Sans", sans-serif;border:1px solid rgb(240,240,240);}
+    #sub-menu-design-section #used-theme-form select:focus,#edit-theme-form select:focus,#create-theme-form select:focus,#upload-css-file-form select:focus{outline:0px;}
+
+    #sub-menu-design-section #change-theme-btn,#edit-theme-btn,#create-theme-btn{background-color:rgb(240,240,240);width:100px;padding:5px;color:rgb(0,0,0);border:1px solid rgb(220,220,220);border-radius:3px;margin:10px 0px;font:0.9em "Open Sans", sans-serif;}
+
+    ul.manage-list{list-style-type:none;}
+    ul.manage-list a{text-decoration:none;font:0.9em "Open Sans", sans-serif;color:rgb(0,162,232);margin-right:20px;}
+    ul.manage-list li{margin-top:10px;}
+    ul.manage-list li a{text-decoration:none;font:1em "Open Sans", sans-serif;color:rgb(0,0,0);}
+
+    .article_heading,.article_description{width:80%;}
+}

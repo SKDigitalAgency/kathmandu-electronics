@@ -1,0 +1,48 @@
+@media screen and (max-width:480px){
+    body{margin:0px;}
+    body .container{width:100%;padding:1%;}
+    main .container,.header .container{width:90%;}
+    h1.logo-text{font:Bold 1.8em "Arial", sans-serif;color:rgb(255,0,0);}
+    main .section-header{font:Bold 1em "Arial", sans-serif;color:rgb(0,162,232);text-transform:uppercase;}
+    #login-form label{font:1em "Arial", sans-serif;color:rgb(100,100,100);display:block;}
+    #login-form input[type=text],#login-form input[type=password]{padding:0.5em 0.2em;margin:0.5em 0em;font:1em "Arial", sans-serif;color:rgb(200,200,200);border:1px solid rgb(240,240,240);-webkit-appearance:none;}
+    #login-button{padding:0.5em;border:0px;font:1em "Arial", sans-serif;background-color:rgb(0,162,232);color:rgb(255,255,255);-webkit-appearance:none;}
+    .message_empty{background-color:rgb(240,240,240);font:1em "Arial", sans-serif;color:rgb(150,150,150);padding:0.3em;}
+    .message_incorrect{background-color:rgb(255,0,0);font:1em "Arial", sans-serif;color:rgb(255,255,255);padding:0.3em;}
+}
+@media screen and (min-width:481px) and (max-width:720px){
+    body{margin:0px;}
+    body .container{width:100%;padding:1%;}
+    main .container,.header .container{width:90%;}
+    h1.logo-text{font:Bold 1.8em "Arial", sans-serif;color:rgb(255,0,0);}
+    main .section-header{font:Bold 1em "Arial", sans-serif;color:rgb(0,162,232);text-transform:uppercase;}
+    #login-form label{font:1em "Arial", sans-serif;color:rgb(100,100,100);display:block;}
+    #login-form input[type=text],#login-form input[type=password]{padding:0.5em 0.2em;margin:0.5em 0em;font:1em "Arial", sans-serif;color:rgb(200,200,200);border:1px solid rgb(240,240,240);-webkit-appearance:none;}
+    #login-button{padding:0.5em;border:0px;font:1em "Arial", sans-serif;background-color:rgb(0,162,232);color:rgb(255,255,255);-webkit-appearance:none;}
+    .message_empty{background-color:rgb(240,240,240);font:1em "Arial", sans-serif;color:rgb(150,150,150);padding:0.3em;}
+    .message_incorrect{background-color:rgb(255,0,0);font:1em "Arial", sans-serif;color:rgb(255,255,255);padding:0.3em;}
+}
+@media screen and (min-width:721px) and (max-width:1024px){
+    body{margin:0px;}
+    body .container{width:40%;margin:auto;border:1px solid rgb(240,240,240);padding:1%;margin-top:20px;}
+    main .container,.header .container{width:90%;border:0px;padding:0px;}
+    h1.logo-text{font:Bold 1.8em "Arial", sans-serif;color:rgb(255,0,0);}
+    main .section-header{font:Bold 1em "Arial", sans-serif;color:rgb(0,162,232);text-transform:uppercase;}
+    #login-form label{font:1em "Arial", sans-serif;color:rgb(100,100,100);display:block;}
+    #login-form input[type=text],#login-form input[type=password]{padding:0.5em 0.2em;margin:0.5em 0em;font:1em "Open-Sans", sans-serif;color:rgb(200,200,200);border:1px solid rgb(240,240,240);}
+    #login-button{padding:0.5em;border:0px;font:1em "Open-Sans", sans-serif;background-color:rgb(0,162,232);color:rgb(255,255,255);}
+    .message_empty{background-color:rgb(240,240,240);font:1em "Arial", sans-serif;color:rgb(150,150,150);padding:0.3em;}
+    .message_incorrect{background-color:rgb(255,0,0);font:1em "Arial", sans-serif;color:rgb(255,255,255);padding:0.3em;}
+}
+@media screen and (min-width:1024px){
+    body{margin:0px;}
+    body .container{width:40%;margin:auto;border:1px solid rgb(240,240,240);padding:1%;margin-top:20px;}
+    main .container,.header .container{width:90%;border:0px;padding:0px;}
+    h1.logo-text{font:Bold 1.8em "Arial", sans-serif;color:rgb(255,0,0);}
+    main .section-header{font:Bold 1em "Arial", sans-serif;color:rgb(0,162,232);text-transform:uppercase;}
+    #login-form label{font:1em "Arial", sans-serif;color:rgb(100,100,100);display:block;}
+    #login-form input[type=text],#login-form input[type=password]{padding:0.5em 0.2em;margin:0.5em 0em;font:1em "Open-Sans", sans-serif;color:rgb(200,200,200);border:1px solid rgb(240,240,240);}
+    #login-button{padding:0.5em;border:0px;font:1em "Open-Sans", sans-serif;background-color:rgb(0,162,232);color:rgb(255,255,255);}
+    .message_empty{background-color:rgb(240,240,240);font:1em "Arial", sans-serif;color:rgb(150,150,150);padding:0.3em;}
+    .message_incorrect{background-color:rgb(255,0,0);font:1em "Arial", sans-serif;color:rgb(255,255,255);padding:0.3em;}
+}
